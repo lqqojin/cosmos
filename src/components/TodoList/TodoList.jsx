@@ -1,7 +1,8 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import Todo from '../Todo/Todo';
 import AddTodo from '../AddTodo/AddTodo';
 import styles from './TodoList.module.css';
+import { useDarkMode } from '../../context/DarkModeContext';
 
 export default function TodoList({ filter }) {
 	const [todos, setTodos] = useState([]);
