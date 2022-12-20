@@ -5,7 +5,7 @@ import styles from './Todo.module.css';
 export default function Todo({ todo, onUpdate, onDelete }) {
 	const { id, text, status } = todo;
 	const handleChange = (e) => {
-		const status = e.target.checked ? 'completed' : 'action';
+		const status = e.target.checked ? 'completed' : 'active';
 		onUpdate({ ...todo, status });
 	}
 	const handleClick = () => onDelete(todo);
@@ -15,11 +15,11 @@ export default function Todo({ todo, onUpdate, onDelete }) {
 			<input
 				className={styles.checkbox}
 				type="checkbox"
-				id='checkbox'
+				id={id}
 				checked={status === 'completed'}
 				onChange={handleChange}
 			/>
-			<label htmlFor='checkbox' className={styles.text}>
+			<label htmlFor={id} className={styles.text}>
 				{text}
 			</label>
 			<span className={styles.icon}>
