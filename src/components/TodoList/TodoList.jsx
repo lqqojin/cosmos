@@ -17,7 +17,6 @@ export default function TodoList({ filter }) {
 	}
 	const filtered = getFilteredItems(todos, filter);
 	useEffect(() => {
-		console.log('[useEffect]', todos, filter)
 		localStorage.setItem('todos', JSON.stringify(todos));
 		return () => {
 			console.log('깨끗하게 청소하는 일들을 합니다.')
