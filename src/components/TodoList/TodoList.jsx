@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import Todo from '../Todo/Todo';
 import AddTodo from '../AddTodo/AddTodo';
 import styles from './TodoList.module.css';
-import { useDarkMode } from '../../context/DarkModeContext';
 
 export default function TodoList({ filter }) {
-	const [todos, setTodos] = useState([]);
+	const [todos, setTodos] = useState(() => readTodosFromLocalStorage());
+
 	const handleAdd = (todo) => {
 		setTodos([...todos, todo])
 	}
@@ -16,9 +16,9 @@ export default function TodoList({ filter }) {
 		setTodos(todos.filter((item) =>(item.id !== deleted.id)));
 	}
 	const filtered = getFilteredItems(todos, filter);
-
 	useEffect(() => {
 		console.log('[useEffect]', todos, filter)
+		localStorage.setItem('todos', JSON.stringify(todos));
 		return () => {
 			console.log('깨끗하게 청소하는 일들을 합니다.')
 		};
@@ -42,8 +42,14 @@ export default function TodoList({ filter }) {
 	);
 }
 
-function getFilteredItems(todos, filter) {
+const getFilteredItems = (todos, filter) => {
 	console.log('getFilteredItems', todos, filter)
 	if (filter === 'all')  return todos;
 	return todos.filter((todo) => todo.status === filter);
+}
+
+const readTodosFromLocalStorage = () => {
+	console.log('[readTodosFromLocalStorage]');
+	const todos = localStorage.getItem('todos');
+	return todos ? JSON.parse(todos) : [];
 }
