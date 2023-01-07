@@ -2202,6 +2202,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@remix-run/router@npm:1.2.1":
+  version: 1.2.1
+  resolution: "@remix-run/router@npm:1.2.1"
+  checksum: 71c947f83e130bf006226332aca395f626ad599b6d35dfe936f6a8f139cf37278bc1b36bce38c30f6062724402358296329f31c385b11ae59b13b76a2716d701
+  languageName: node
+  linkType: hard
+
 "@rollup/plugin-babel@npm:^5.2.0":
   version: 5.3.1
   resolution: "@rollup/plugin-babel@npm:5.3.1"
@@ -2432,6 +2439,56 @@ __metadata:
     "@svgr/plugin-svgo": ^5.5.0
     loader-utils: ^2.0.0
   checksum: 540391bd63791625d26d6b5e0dd3c716ef51176bfba53bf0979a1ac4781afd2672f4bef2d76cf3d9cdc8e9ee61bda6863ed405a237b10406633ede4cd524f1cc
+  languageName: node
+  linkType: hard
+
+"@tanstack/match-sorter-utils@npm:^8.7.0":
+  version: 8.7.2
+  resolution: "@tanstack/match-sorter-utils@npm:8.7.2"
+  dependencies:
+    remove-accents: 0.4.2
+  checksum: 0821430d7de76911481b5300f4812f7cfefb804bf2f23fb1bab45e66c273379f0c919785ca1aecd8614b72d9e5e0e0edf9f449cbbb87dd91166d77ca285351f6
+  languageName: node
+  linkType: hard
+
+"@tanstack/query-core@npm:4.20.9":
+  version: 4.20.9
+  resolution: "@tanstack/query-core@npm:4.20.9"
+  checksum: 679551353e6d5adcae771bc78b64959a6ecf4f85c1f74952b38b18a7425374cf84dc2e461cf6048be206d8bbac265468d36231f7f9d0b6689504a0e069dd5ac6
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query-devtools@npm:^4.20.9":
+  version: 4.20.9
+  resolution: "@tanstack/react-query-devtools@npm:4.20.9"
+  dependencies:
+    "@tanstack/match-sorter-utils": ^8.7.0
+    superjson: ^1.10.0
+    use-sync-external-store: ^1.2.0
+  peerDependencies:
+    "@tanstack/react-query": 4.20.9
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: e9878ba52ed33ba1800f7e459b07450f67d586db459d0b9e04a76f0b580e5ccd81f6644d7c1bedfd5bac79abc9c1e3174f8a68bbca38a3560aacc4c58cd56bfb
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query@npm:^4.20.9":
+  version: 4.20.9
+  resolution: "@tanstack/react-query@npm:4.20.9"
+  dependencies:
+    "@tanstack/query-core": 4.20.9
+    use-sync-external-store: ^1.2.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-native: "*"
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+    react-native:
+      optional: true
+  checksum: 4fc953d774c5c0f7f332f014dfb2fb9865387ae6e849fdf551e2ad70f07d55fbdbc4c6afb27a1f90bce3a2348bd1adf67ab78a4bc2cdf8d3e5ff90128730b467
   languageName: node
   linkType: hard
 
@@ -4499,6 +4556,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"copy-anything@npm:^3.0.2":
+  version: 3.0.3
+  resolution: "copy-anything@npm:3.0.3"
+  dependencies:
+    is-what: ^4.1.8
+  checksum: d456dc5ec98dee7c7cf87d809eac30dc2ac942acd4cf970fab394e280ceb6dd7a8a7a5a44fcbcc50e0206658de3cc20b92863562f5797930bb2619f164f4c182
+  languageName: node
+  linkType: hard
+
 "core-js-compat@npm:^3.25.1":
   version: 3.26.1
   resolution: "core-js-compat@npm:3.26.1"
@@ -4559,6 +4625,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "cosmos@workspace:."
   dependencies:
+    "@tanstack/react-query": ^4.20.9
+    "@tanstack/react-query-devtools": ^4.20.9
     "@testing-library/jest-dom": ^5.14.1
     "@testing-library/react": ^13.0.0
     "@testing-library/user-event": ^13.2.1
@@ -4566,6 +4634,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     react-icons: ^4.7.1
+    react-router-dom: ^6.6.1
     react-scripts: 5.0.1
     tailwindcss: ^3.2.4
     uuid: ^9.0.0
@@ -7287,6 +7356,13 @@ __metadata:
     call-bind: ^1.0.2
     get-intrinsic: ^1.1.1
   checksum: 5d8698d1fa599a0635d7ca85be9c26d547b317ed8fd83fc75f03efbe75d50001b5eececb1e9971de85fcde84f69ae6f8346bc92d20d55d46201d328e4c74a367
+  languageName: node
+  linkType: hard
+
+"is-what@npm:^4.1.8":
+  version: 4.1.8
+  resolution: "is-what@npm:4.1.8"
+  checksum: b9bec3acff102d14ad467f4c74c9886af310fa160e07a63292c8c181e6768c7c4c1054644e13d67185b963644e4a513bce8c6b8ce3d3ca6f9488a69fccad5f97
   languageName: node
   linkType: hard
 
@@ -10496,6 +10572,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-router-dom@npm:^6.6.1":
+  version: 6.6.1
+  resolution: "react-router-dom@npm:6.6.1"
+  dependencies:
+    "@remix-run/router": 1.2.1
+    react-router: 6.6.1
+  peerDependencies:
+    react: ">=16.8"
+    react-dom: ">=16.8"
+  checksum: 68a4419c203add0df0203ac2a58e5832949105e0c0561a0850f74cac8e3108507fd8d9c62baeb10ea5ce4cb8eaddea9475bcb3787bdabb3ede23b55564b835ae
+  languageName: node
+  linkType: hard
+
+"react-router@npm:6.6.1":
+  version: 6.6.1
+  resolution: "react-router@npm:6.6.1"
+  dependencies:
+    "@remix-run/router": 1.2.1
+  peerDependencies:
+    react: ">=16.8"
+  checksum: 58f0ad29123e2854d547915a1ae1cc2687504e396d71db50fe8f36ad733d7940a2914d45868a8478b6138536e119fa5e3303212b7c7b1d81d80cd5b0bbefdfa2
+  languageName: node
+  linkType: hard
+
 "react-scripts@npm:5.0.1":
   version: 5.0.1
   resolution: "react-scripts@npm:5.0.1"
@@ -10728,6 +10828,13 @@ __metadata:
   version: 0.2.7
   resolution: "relateurl@npm:0.2.7"
   checksum: 5891e792eae1dfc3da91c6fda76d6c3de0333a60aa5ad848982ebb6dccaa06e86385fb1235a1582c680a3d445d31be01c6bfc0804ebbcab5aaf53fa856fde6b6
+  languageName: node
+  linkType: hard
+
+"remove-accents@npm:0.4.2":
+  version: 0.4.2
+  resolution: "remove-accents@npm:0.4.2"
+  checksum: 84a6988555dea24115e2d1954db99509588d43fe55a1590f0b5894802776f7b488b3151c37ceb9e4f4b646f26b80b7325dcea2fae58bc3865df146e1fa606711
   languageName: node
   linkType: hard
 
@@ -11630,6 +11737,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"superjson@npm:^1.10.0":
+  version: 1.12.1
+  resolution: "superjson@npm:1.12.1"
+  dependencies:
+    copy-anything: ^3.0.2
+  checksum: d69badde9892bd2acfb6a2c37f233b7018b64fe88357568a7ab480547d6755ac1ed33a8d438d7ca856178312f5367574de180774d558bc0b75d1439efdfc53ba
+  languageName: node
+  linkType: hard
+
 "supports-color@npm:^5.3.0":
   version: 5.5.0
   resolution: "supports-color@npm:5.5.0"
@@ -12193,6 +12309,15 @@ __metadata:
     querystringify: ^2.1.1
     requires-port: ^1.0.0
   checksum: fbdba6b1d83336aca2216bbdc38ba658d9cfb8fc7f665eb8b17852de638ff7d1a162c198a8e4ed66001ddbf6c9888d41e4798912c62b4fd777a31657989f7bdf
+  languageName: node
+  linkType: hard
+
+"use-sync-external-store@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "use-sync-external-store@npm:1.2.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: 5c639e0f8da3521d605f59ce5be9e094ca772bd44a4ce7322b055a6f58eeed8dda3c94cabd90c7a41fb6fa852210092008afe48f7038792fd47501f33299116a
   languageName: node
   linkType: hard
 
