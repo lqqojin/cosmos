@@ -26,7 +26,25 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "plugins": ["prettier"],
+      "no-debugger": "warn",
+      "camelcase": "off",
+      "prettier/prettier": [
+        "error",
+        {
+          "singleQuote": true,
+          "semi": true,
+          "tabWidth": 2,
+          "trailingComma": "all",
+          "printWidth": 80,
+          "bracketSpacing": true,
+          "arrowParens": "avoid",
+          "quoteProps": "as-needed"
+        }
+      ]
+    }
   },
   "browserslist": {
     "production": [

@@ -4,7 +4,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import {RouterProvider, createBrowserRouter} from 'react-router-dom';
-import Home from './pages/Home';
+import Login from './pages/Login';
 import NotFound from './pages/NotFound';
 import Todos from './pages/Todos';
 import Videos from './pages/Videos';
@@ -18,7 +18,8 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <NotFound />,
     children: [
-      { index: true, element: <Home /> },
+      { index: true, element: <Videos /> },
+      { path: '/login', element: <Login /> },
       { path: '/todos', element: <Todos /> },
       { path: '/videos', element: <Videos /> },
       { path: '/videos/:keyword', element: <Videos /> },
@@ -31,12 +32,14 @@ const queryClient = new QueryClient();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <RouterProvider router={router}>
-    <QueryClientProvider client={queryClient}>
-      <App />
-      <ReactQueryDevtools initialIsOpen={true} />
-    </QueryClientProvider>
-  </RouterProvider>
+  <React.StrictMode>
+    <RouterProvider router={router}>
+      <QueryClientProvider client={queryClient}>
+        <App />
+        <ReactQueryDevtools initialIsOpen={true} />
+      </QueryClientProvider>
+    </RouterProvider>
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

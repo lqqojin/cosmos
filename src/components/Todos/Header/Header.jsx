@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Header.module.css';
-import { useDarkMode } from '../../context/DarkModeContext';
+import { useDarkMode } from '../../../context/DarkModeContext';
 import { HiMoon, HiSun } from 'react-icons/hi';
 
 export default function Header({ filters, filter, onFilterChange}) {
