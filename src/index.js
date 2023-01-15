@@ -3,7 +3,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {RouterProvider, createBrowserRouter} from 'react-router-dom';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Login from './pages/Login';
 import NotFound from './pages/NotFound';
 import Todos from './pages/Todos';
@@ -39,7 +39,7 @@ root.render(
         <ReactQueryDevtools initialIsOpen={true} />
       </QueryClientProvider>
     </RouterProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
 
 // If you want to start measuring performance in your app, pass a function

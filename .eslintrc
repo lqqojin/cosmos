@@ -1,0 +1,44 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "node": true,
+    "es6": true,
+    "jest": true,
+    "es2022": true
+  },
+  "extends": [
+    "react-app",
+    "eslint:recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["prettier"],
+  "parserOptions": {
+    "ecmaVersion": 2022
+  },
+//  "ignorePatterns": ["dist/", "node_modules/"],
+  "rules": {
+    "no-debugger": "warn",
+    "camelcase": "off",
+    "no-console": "off",
+    "strict": [
+      "error",
+      "global"
+    ],
+    "curly": "warn",
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "semi": true,
+        "tabWidth": 2,
+        "trailingComma": "all",
+        "printWidth": 80,
+        "bracketSpacing": true,
+        "arrowParens": "avoid",
+        "quoteProps": "as-needed"
+      }
+    ]
+  }
+}

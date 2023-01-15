@@ -1,12 +1,12 @@
 .button {
-    background-color: var(--color-accent);
-    color: var(--color-white);
-    font-weight: bold;
-    font-size: 1.4rem;
-    padding: 0 2rem;
-    border-radius: 8px;
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding: 0 2rem;
+  border-radius: 8px;
 }
 
 .button:hover {
-    filter: brightness(125%);
+  filter: brightness(125%);
 }
