@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@tailwindcss/line-clamp", "virtual:518489ac9d936bbde76b15f1ebd82ba55d933fc1960686b72fd22d740a88598d236cf1fa28f5e62024f0b78e560d5e850543731cafe740f90cf9d5f628aec654#npm:0.4.2"],\
             ["@tanstack/react-query", "virtual:518489ac9d936bbde76b15f1ebd82ba55d933fc1960686b72fd22d740a88598d236cf1fa28f5e62024f0b78e560d5e850543731cafe740f90cf9d5f628aec654#npm:4.22.0"],\
             ["@tanstack/react-query-devtools", "virtual:518489ac9d936bbde76b15f1ebd82ba55d933fc1960686b72fd22d740a88598d236cf1fa28f5e62024f0b78e560d5e850543731cafe740f90cf9d5f628aec654#npm:4.22.0"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
@@ -46,6 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-router-dom", "virtual:518489ac9d936bbde76b15f1ebd82ba55d933fc1960686b72fd22d740a88598d236cf1fa28f5e62024f0b78e560d5e850543731cafe740f90cf9d5f628aec654#npm:6.6.2"],\
             ["react-scripts", "virtual:518489ac9d936bbde76b15f1ebd82ba55d933fc1960686b72fd22d740a88598d236cf1fa28f5e62024f0b78e560d5e850543731cafe740f90cf9d5f628aec654#npm:5.0.1"],\
             ["tailwindcss", "virtual:518489ac9d936bbde76b15f1ebd82ba55d933fc1960686b72fd22d740a88598d236cf1fa28f5e62024f0b78e560d5e850543731cafe740f90cf9d5f628aec654#npm:3.2.4"],\
+            ["timeago.js", "npm:4.0.2"],\
             ["uuid", "npm:9.0.0"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
@@ -4108,6 +4110,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@tailwindcss/line-clamp", [\
+        ["npm:0.4.2", {\
+          "packageLocation": "./.yarn/cache/@tailwindcss-line-clamp-npm-0.4.2-7e8725ef00-26b8135df2.zip/node_modules/@tailwindcss/line-clamp/",\
+          "packageDependencies": [\
+            ["@tailwindcss/line-clamp", "npm:0.4.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:518489ac9d936bbde76b15f1ebd82ba55d933fc1960686b72fd22d740a88598d236cf1fa28f5e62024f0b78e560d5e850543731cafe740f90cf9d5f628aec654#npm:0.4.2", {\
+          "packageLocation": "./.yarn/__virtual__/@tailwindcss-line-clamp-virtual-f3b8b777c0/0/cache/@tailwindcss-line-clamp-npm-0.4.2-7e8725ef00-26b8135df2.zip/node_modules/@tailwindcss/line-clamp/",\
+          "packageDependencies": [\
+            ["@tailwindcss/line-clamp", "virtual:518489ac9d936bbde76b15f1ebd82ba55d933fc1960686b72fd22d740a88598d236cf1fa28f5e62024f0b78e560d5e850543731cafe740f90cf9d5f628aec654#npm:0.4.2"],\
+            ["@types/tailwindcss", null],\
+            ["tailwindcss", "virtual:518489ac9d936bbde76b15f1ebd82ba55d933fc1960686b72fd22d740a88598d236cf1fa28f5e62024f0b78e560d5e850543731cafe740f90cf9d5f628aec654#npm:3.2.4"]\
+          ],\
+          "packagePeers": [\
+            "@types/tailwindcss",\
+            "tailwindcss"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@tanstack/match-sorter-utils", [\
         ["npm:8.7.6", {\
           "packageLocation": "./.yarn/cache/@tanstack-match-sorter-utils-npm-8.7.6-2bff79c61d-3f3dda277e.zip/node_modules/@tanstack/match-sorter-utils/",\
@@ -6874,6 +6898,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["cosmos", "workspace:."],\
+            ["@tailwindcss/line-clamp", "virtual:518489ac9d936bbde76b15f1ebd82ba55d933fc1960686b72fd22d740a88598d236cf1fa28f5e62024f0b78e560d5e850543731cafe740f90cf9d5f628aec654#npm:0.4.2"],\
             ["@tanstack/react-query", "virtual:518489ac9d936bbde76b15f1ebd82ba55d933fc1960686b72fd22d740a88598d236cf1fa28f5e62024f0b78e560d5e850543731cafe740f90cf9d5f628aec654#npm:4.22.0"],\
             ["@tanstack/react-query-devtools", "virtual:518489ac9d936bbde76b15f1ebd82ba55d933fc1960686b72fd22d740a88598d236cf1fa28f5e62024f0b78e560d5e850543731cafe740f90cf9d5f628aec654#npm:4.22.0"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
@@ -6892,6 +6917,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-router-dom", "virtual:518489ac9d936bbde76b15f1ebd82ba55d933fc1960686b72fd22d740a88598d236cf1fa28f5e62024f0b78e560d5e850543731cafe740f90cf9d5f628aec654#npm:6.6.2"],\
             ["react-scripts", "virtual:518489ac9d936bbde76b15f1ebd82ba55d933fc1960686b72fd22d740a88598d236cf1fa28f5e62024f0b78e560d5e850543731cafe740f90cf9d5f628aec654#npm:5.0.1"],\
             ["tailwindcss", "virtual:518489ac9d936bbde76b15f1ebd82ba55d933fc1960686b72fd22d740a88598d236cf1fa28f5e62024f0b78e560d5e850543731cafe740f90cf9d5f628aec654#npm:3.2.4"],\
+            ["timeago.js", "npm:4.0.2"],\
             ["uuid", "npm:9.0.0"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
@@ -16515,6 +16541,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/thunky-npm-1.1.0-2d25531f44-993096c472.zip/node_modules/thunky/",\
           "packageDependencies": [\
             ["thunky", "npm:1.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["timeago.js", [\
+        ["npm:4.0.2", {\
+          "packageLocation": "./.yarn/cache/timeago.js-npm-4.0.2-e87d64f9a3-c785a06988.zip/node_modules/timeago.js/",\
+          "packageDependencies": [\
+            ["timeago.js", "npm:4.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
