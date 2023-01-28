@@ -1,22 +1,37 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
-import { formatAgo } from '../utils/date';
-import { useVideoDetail } from '../context/VideoDetailContext';
+import { useLocation, useParams } from 'react-router-dom';
+import RelatedVideos from '../components/Videos/RelatedVideos';
+import ChannelInfo from '../components/Videos/ChannelInfo';
+// import { formatAgo } from '../utils/date';
 
 export default function VideosDetail() {
   const { videoId } = useParams();
-  const { videoDetail } = useVideoDetail();
-  const { thumbnails, title, channelTitle, publishedAt } = videoDetail.snippet;
-  console.log(videoId);
-  console.log(videoDetail);
+  const {
+    state: { video },
+  } = useLocation();
+  const { title, channelId, channelTitle, description } = video.snippet;
+  // console.log(videoDetail);
   return (
-    <div>
-      <img className="w-full" src={thumbnails.standard.url} alt={title} />
-      <div>
-        <p className="font-semibold my-2 line-clamp-2">{title}</p>
-        <p className="text-sm opacity-80">{channelTitle}</p>
-        <p className="text-sm opacity-80">{formatAgo(publishedAt, 'ko')}</p>
-      </div>
-    </div>
+    <section key={videoId}>
+      <article>
+        <iframe
+          id="player"
+          type="text/html"
+          width="100%"
+          height="640"
+          src={`http://www.youtube.com/embed/${videoId}`}
+          frameBorder="0"
+          title="play"
+        />
+        <div>
+          <h2>{title}</h2>
+          <ChannelInfo id={channelId} name={channelTitle} />
+          <pre>{description}</pre>
+        </div>
+      </article>
+      <section>
+        <RelatedVideos id={video.id} />
+      </section>
+    </section>
   );
 }
