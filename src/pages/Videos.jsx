@@ -12,9 +12,8 @@ export default function Videos() {
     isLoading,
     error,
     data: videos,
-  } = useQuery(['videos', keyword], () => {
-    // const youtube = new FakeYoutube(); // new Youtube();
-    return youtube.search(keyword);
+  } = useQuery(['videos', keyword], () => youtube.search(keyword), {
+    // staleTime: 1000 * 60,
   });
 
   return (

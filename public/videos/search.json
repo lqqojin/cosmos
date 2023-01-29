@@ -1,6 +1,6 @@
 {
   "kind": "youtube#searchListResponse",
-  "etag": "gHf3ptfSZCnVQq3zYHifSX2VaLM",
+  "etag": "6apE6oami4wDd8ei1vRlJWNH__A",
   "nextPageToken": "CBkQAA",
   "regionCode": "KR",
   "pageInfo": {
@@ -10,846 +10,834 @@
   "items": [
     {
       "kind": "youtube#searchResult",
-      "etag": "tkK6FPUzVvGTeECw_rkhfS5CEW0",
+      "etag": "8XwbdX-QgWFLwcngWAAyef970fE",
       "id": {
         "kind": "youtube#video",
-        "videoId": "XsX3ATc3FbA"
+        "videoId": "bryaPWo48Bw"
       },
       "snippet": {
-        "publishedAt": "2019-04-12T09:00:02Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;작은 것들을 위한 시 (Boy With Luv) (feat. Halsey)&#39; Official MV",
-        "description": "BTS (방탄소년단) '작은 것들을 위한 시 (Boy With Luv) (Feat. Halsey)' Official MV Credits: Director : YongSeok Choi (Lumpens) ...",
+        "publishedAt": "2023-01-28T12:07:04Z",
+        "channelId": "UCnXe6v0-5vmMMRU2qx0XwUw",
+        "title": "[비트코인] 전재산 아파트 올인 했는데...  I went all in on the APT coin [SUB]",
+        "description": "투네이션 후원주소 https://toon.at/donate/satto2 ▷세계 3대 비트코인 선물 거래소 '바이빗(Bybit)'에서 거래하기 리퍼럴 링크(수수료 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/XsX3ATc3FbA/default.jpg",
+            "url": "https://i.ytimg.com/vi/bryaPWo48Bw/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/XsX3ATc3FbA/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/bryaPWo48Bw/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/XsX3ATc3FbA/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/bryaPWo48Bw/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "HYBE LABELS",
+        "channelTitle": "스트리머 사또 live-streamer satto",
         "liveBroadcastContent": "none",
-        "publishTime": "2019-04-12T09:00:02Z"
+        "publishTime": "2023-01-28T12:07:04Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "pS7ZwjWMRi4bES4iVadrTRavKC0",
+      "etag": "CkfNa-ADWyiU9p8Mi9DoUBIVSLU",
       "id": {
         "kind": "youtube#video",
-        "videoId": "gdZLi9oWNZg"
+        "videoId": "bIuKlyX2VFs"
       },
       "snippet": {
-        "publishedAt": "2020-08-21T03:58:10Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;Dynamite&#39; Official MV",
-        "description": "BTS (방탄소년단) 'Dynamite' Official MV Credits: Director: Yong Seok Choi (Lumpens) Assistant Director: Jihye Yoon (Lumpens) ...",
+        "publishedAt": "2023-01-21T12:12:28Z",
+        "channelId": "UCbOIEn95Rvnk97KRtSFqvbQ",
+        "title": "비트코인, 꾸준히 사고 있습니다. &#39;이때까지&#39; 무섭게 오를 겁니다 (최성락 前교수)",
+        "description": "최성락 대표님의 책을 소개합니다 :) 책 - http://bit.ly/3GaW8I7 저자소개 서울대학교 국제경제학과를 졸업하고, 서울대학교 행정 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/gdZLi9oWNZg/default.jpg",
+            "url": "https://i.ytimg.com/vi/bIuKlyX2VFs/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/gdZLi9oWNZg/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/bIuKlyX2VFs/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/gdZLi9oWNZg/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/bIuKlyX2VFs/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "HYBE LABELS",
+        "channelTitle": "웅달 책방",
         "liveBroadcastContent": "none",
-        "publishTime": "2020-08-21T03:58:10Z"
+        "publishTime": "2023-01-21T12:12:28Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "5f0Mk19sL6w3_p9lOPkFyVNIN8g",
+      "etag": "K7UnYKyS4HjgrSsy--gmYeXhvuw",
       "id": {
         "kind": "youtube#video",
-        "videoId": "nYyAQ_w0qGc"
+        "videoId": "XYSe8mUYj_M"
       },
       "snippet": {
-        "publishedAt": "2023-01-03T14:00:00Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "Run BTS! 2023 Special Episode - Next Top Genius Part 1",
-        "description": "RunBTS #달려라방탄 #달방 Connect with BTS: https://ibighit.com/bts http://twitter.com/BTS_bighit http://twitter.com/BTS_twt ...",
+        "publishedAt": "2023-01-27T18:47:45Z",
+        "channelId": "UCnXe6v0-5vmMMRU2qx0XwUw",
+        "title": "1/27녹) 비트코인 사또 아파트에 인생을건 남자 satto Bitcoin korea no.1",
+        "description": "투네이션 후원주소 https://toon.at/donate/satto2 ▷세계 3대 비트코인 선물 거래소 '바이빗(Bybit)'에서 거래하기 리퍼럴 링크(수수료 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/nYyAQ_w0qGc/default.jpg",
+            "url": "https://i.ytimg.com/vi/XYSe8mUYj_M/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/nYyAQ_w0qGc/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/XYSe8mUYj_M/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/nYyAQ_w0qGc/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/XYSe8mUYj_M/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "BANGTANTV",
+        "channelTitle": "스트리머 사또 live-streamer satto",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-01-03T14:00:00Z"
+        "publishTime": "2023-01-27T18:47:45Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "luMuXw8IGT1FBU8cUDvO-lBmeCA",
+      "etag": "iKM5Cs2hjK1B9T7VwGBDHRLa2Zc",
       "id": {
         "kind": "youtube#video",
-        "videoId": "kXpOEzNZ8hQ"
+        "videoId": "5V6YoJz737g"
       },
       "snippet": {
-        "publishedAt": "2022-06-10T03:59:38Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;Yet To Come (The Most Beautiful Moment)&#39; Official MV",
-        "description": "BTS (방탄소년단) 'Yet To Come (The Most Beautiful Moment)' Official MV Credits: Director: Yong Seok Choi (Lumpens) 1st AD: ...",
+        "publishedAt": "2023-01-21T10:00:07Z",
+        "channelId": "UC7uFGmwzzXok18RdOh9FDfQ",
+        "title": "올해 비트코인 가격 바닥은 8천, 위로는 열려있다/ 내가 &#39;2만150달러&#39;에 매도 걸어둔 이유? ft.김동환 원더프레임 대표",
+        "description": "고란 #비트코인 #이더리움 #코인전망 #매크로 #가상자산 00:00 인트로 00:12 김동환 원더프레임 대표 00:18 비트코인 가격 앞으로 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/kXpOEzNZ8hQ/default.jpg",
+            "url": "https://i.ytimg.com/vi/5V6YoJz737g/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/kXpOEzNZ8hQ/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/5V6YoJz737g/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/kXpOEzNZ8hQ/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/5V6YoJz737g/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "HYBE LABELS",
+        "channelTitle": "algoran알고란",
         "liveBroadcastContent": "none",
-        "publishTime": "2022-06-10T03:59:38Z"
+        "publishTime": "2023-01-21T10:00:07Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "VHCkJhEfZ3xTY_RoIVGbyk7-IT4",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "aqW4xXUgmno"
-      },
-      "snippet": {
-        "publishedAt": "2022-11-13T10:00:02Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "[CHOREOGRAPHY] BTS (방탄소년단) &#39;달려라 방탄 (Run BTS)&#39; Dance Practice",
-        "description": "BTS #방탄소년단 #달려라방탄 #RunBTS Connect with BTS: https://ibighit.com/bts http://twitter.com/BTS_bighit ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/aqW4xXUgmno/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/aqW4xXUgmno/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/aqW4xXUgmno/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "BANGTANTV",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-11-13T10:00:02Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "qE5y1uU64ZugppCLIX4v3lAk7-Q",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "WMweEpGlu_U"
-      },
-      "snippet": {
-        "publishedAt": "2021-05-21T03:46:13Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;Butter&#39; Official MV",
-        "description": "BTS (방탄소년단) 'Butter' Official MV Credits: Director: Yong Seok Choi (Lumpens) 1st AD: Jihye Yoon (Lumpens) 2nd AD: Ran ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/WMweEpGlu_U/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/WMweEpGlu_U/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/WMweEpGlu_U/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "HYBE LABELS",
-        "liveBroadcastContent": "none",
-        "publishTime": "2021-05-21T03:46:13Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "7NvlMBuAmlFin1s5Nuy2vLKcV-g",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "-5q5mZbe3V8"
-      },
-      "snippet": {
-        "publishedAt": "2020-11-20T04:58:11Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;Life Goes On&#39; Official MV",
-        "description": "BTS (방탄소년단) 'Life Goes On' Official MV Credits: Director: Jeon Jung Kook Assistant Director: Yong Seok Choi, Jihye Yoon ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/-5q5mZbe3V8/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/-5q5mZbe3V8/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/-5q5mZbe3V8/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "HYBE LABELS",
-        "liveBroadcastContent": "none",
-        "publishTime": "2020-11-20T04:58:11Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "6DO5tqMnnuRzyaI--fnGVvX8vK8",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "CuklIb9d3fI"
-      },
-      "snippet": {
-        "publishedAt": "2021-07-09T03:59:12Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;Permission to Dance&#39; Official MV",
-        "description": "BTS (방탄소년단) 'Permission to Dance' Official MV Credits: Director: Yong Seok Choi (Lumpens) & Woogie Kim (MOTHER) ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/CuklIb9d3fI/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/CuklIb9d3fI/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/CuklIb9d3fI/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "HYBE LABELS",
-        "liveBroadcastContent": "none",
-        "publishTime": "2021-07-09T03:59:12Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "WnPz86zFvjLecyndFu8tOHzmR7Y",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "HbkBVxU5K5A"
-      },
-      "snippet": {
-        "publishedAt": "2022-04-23T01:00:03Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "BTS (방탄소년단) &#39;Butter&#39; @ The 64th GRAMMY Awards",
-        "description": "Connect with BTS: https://ibighit.com/bts http://twitter.com/BTS_bighit http://twitter.com/BTS_twt ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/HbkBVxU5K5A/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/HbkBVxU5K5A/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/HbkBVxU5K5A/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "BANGTANTV",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-04-23T01:00:03Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "UWgELEk42JBXXb0iQ47r9TiWmqo",
+      "etag": "Rcci7pv-11uMbjui7RPiWEsOH6c",
       "id": {
         "kind": "youtube#channel",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ"
+        "channelId": "UCvhsQm_E8wx2t5haDnCejMg"
       },
       "snippet": {
-        "publishedAt": "2012-12-17T03:20:38Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "BANGTANTV",
-        "description": "This is the official YouTube channel of BTS. 방탄소년단 공식 유튜브 채널 입니다.",
+        "publishedAt": "2021-06-21T15:58:47Z",
+        "channelId": "UCvhsQm_E8wx2t5haDnCejMg",
+        "title": "코인이슈 경제 채널",
+        "description": "비트코인 가격이 상승장일지 하락장일지 그 누구도 예측할 수 없습니다. 하지만 항상 호재와 악재는 존재합니다. 호재와 악재 일정을 ...",
         "thumbnails": {
           "default": {
-            "url": "https://yt3.ggpht.com/NDWZM_aZQZJ81KRMyctZ5WYJbMIeDXLXBbAYfudK9idNpn7jIiamnj4-_3XIvCvKr1fEU7551A=s88-c-k-c0xffffffff-no-rj-mo"
+            "url": "https://yt3.ggpht.com/I5z9zMqxQtyy9cAUHYMQd_76HoBE-yGcMxiOXg4n8Z-H8ZWlboesVRfssBQCNBCRH2acWFbQAg=s88-c-k-c0xffffffff-no-rj-mo"
           },
           "medium": {
-            "url": "https://yt3.ggpht.com/NDWZM_aZQZJ81KRMyctZ5WYJbMIeDXLXBbAYfudK9idNpn7jIiamnj4-_3XIvCvKr1fEU7551A=s240-c-k-c0xffffffff-no-rj-mo"
+            "url": "https://yt3.ggpht.com/I5z9zMqxQtyy9cAUHYMQd_76HoBE-yGcMxiOXg4n8Z-H8ZWlboesVRfssBQCNBCRH2acWFbQAg=s240-c-k-c0xffffffff-no-rj-mo"
           },
           "high": {
-            "url": "https://yt3.ggpht.com/NDWZM_aZQZJ81KRMyctZ5WYJbMIeDXLXBbAYfudK9idNpn7jIiamnj4-_3XIvCvKr1fEU7551A=s800-c-k-c0xffffffff-no-rj-mo"
+            "url": "https://yt3.ggpht.com/I5z9zMqxQtyy9cAUHYMQd_76HoBE-yGcMxiOXg4n8Z-H8ZWlboesVRfssBQCNBCRH2acWFbQAg=s800-c-k-c0xffffffff-no-rj-mo"
           }
         },
-        "channelTitle": "BANGTANTV",
-        "liveBroadcastContent": "none",
-        "publishTime": "2012-12-17T03:20:38Z"
+        "channelTitle": "코인이슈 경제 채널",
+        "liveBroadcastContent": "upcoming",
+        "publishTime": "2021-06-21T15:58:47Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "wiVuxGeOy8G359XYCsYglluT8iY",
+      "etag": "amt8MuUSe91I2DEl2igGTZw4WMA",
       "id": {
         "kind": "youtube#video",
-        "videoId": "MBdVXkSdhwU"
+        "videoId": "R-Mj_ALzgYE"
       },
       "snippet": {
-        "publishedAt": "2017-09-18T09:00:02Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;DNA&#39; Official MV",
-        "description": "BTS (방탄소년단) 'DNA' Official MV Credits: Director : YongSeok Choi (Lumpens) Assistant Director : WonJu Lee (Lumpens) ...",
+        "publishedAt": "2023-01-21T00:55:23Z",
+        "channelId": "UCq7rKbBTksilnTUQBeeBahg",
+        "title": "비트코인 실시간 매매분석 오늘의 수익차트 #비트코인 #코인선물 #코인",
+        "description": "오늘하루도 중.단타 매매법 으로 확실한 재테크 수익 챙겨갑시다 생방송 트레이딩타임 *1회차 오전9시부터~ *2회차 오후1시부터~ *3 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/MBdVXkSdhwU/default.jpg",
+            "url": "https://i.ytimg.com/vi/R-Mj_ALzgYE/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/MBdVXkSdhwU/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/R-Mj_ALzgYE/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/MBdVXkSdhwU/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/R-Mj_ALzgYE/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "HYBE LABELS",
+        "channelTitle": "김교수의 비트코인 생방",
         "liveBroadcastContent": "none",
-        "publishTime": "2017-09-18T09:00:02Z"
+        "publishTime": "2023-01-21T00:55:23Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "BmuNzjHL_5GDXt8C0Pn8sYeFZHA",
+      "etag": "5l7ikcD7f0GMTXTT3lHeJeVDbKg",
       "id": {
-        "kind": "youtube#video",
-        "videoId": "lcR8CBCW1bs"
+        "kind": "youtube#channel",
+        "channelId": "UCaTOKQa7O30o4XikrALqGAw"
       },
       "snippet": {
-        "publishedAt": "2022-12-26T09:59:53Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "[EPISODE] 정국 (Jung Kook) FIFA World Cup 2022 Soundtrack ‘Dreamers’ MV Shoot Sketch - BTS (방탄소년단)",
-        "description": "BTSEPISODE #JungKook #정국 #Dreamers2022 #BTS #방탄소년단 Connect with BTS: https://ibighit.com/bts ...",
+        "publishedAt": "2020-07-05T22:03:33Z",
+        "channelId": "UCaTOKQa7O30o4XikrALqGAw",
+        "title": "흑비트비트코인",
+        "description": "구독누르시고 좋은기운 받아가세요.",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/lcR8CBCW1bs/default.jpg",
-            "width": 120,
-            "height": 90
+            "url": "https://yt3.ggpht.com/ytc/AL5GRJUiCJrA5P8D-xrvhT8PCgDB5IzvCperF4OVrJj8=s88-c-k-c0xffffffff-no-rj-mo"
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/lcR8CBCW1bs/mqdefault.jpg",
-            "width": 320,
-            "height": 180
+            "url": "https://yt3.ggpht.com/ytc/AL5GRJUiCJrA5P8D-xrvhT8PCgDB5IzvCperF4OVrJj8=s240-c-k-c0xffffffff-no-rj-mo"
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/lcR8CBCW1bs/hqdefault.jpg",
-            "width": 480,
-            "height": 360
+            "url": "https://yt3.ggpht.com/ytc/AL5GRJUiCJrA5P8D-xrvhT8PCgDB5IzvCperF4OVrJj8=s800-c-k-c0xffffffff-no-rj-mo"
           }
         },
-        "channelTitle": "BANGTANTV",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-12-26T09:59:53Z"
+        "channelTitle": "흑비트비트코인",
+        "liveBroadcastContent": "live",
+        "publishTime": "2020-07-05T22:03:33Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "6-_6oMnlXHCtVZyKaA9ptTI-DJ4",
+      "etag": "sEJI-m3Io7CRPbKZ1TCC9vH99cM",
       "id": {
         "kind": "youtube#video",
-        "videoId": "kTlv5_Bs8aw"
+        "videoId": "6Uz-Zq0H5ZI"
       },
       "snippet": {
-        "publishedAt": "2017-11-24T09:00:02Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;MIC Drop (Steve Aoki Remix)&#39; Official MV",
-        "description": "BTS (방탄소년단) 'MIC Drop (Steve Aoki Remix)' Official MV Credits: Music Video by GDW, Directed by Woogie Kim Producer: ...",
+        "publishedAt": "2023-01-26T17:45:05Z",
+        "channelId": "UCnXe6v0-5vmMMRU2qx0XwUw",
+        "title": "1/26녹) 비트코인 사또 아파트로 아파트짓는다 satto Bitcoin korea no.1",
+        "description": "투네이션 후원주소 https://toon.at/donate/satto2 ▷세계 3대 비트코인 선물 거래소 '바이빗(Bybit)'에서 거래하기 리퍼럴 링크(수수료 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/kTlv5_Bs8aw/default.jpg",
+            "url": "https://i.ytimg.com/vi/6Uz-Zq0H5ZI/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/kTlv5_Bs8aw/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/6Uz-Zq0H5ZI/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/kTlv5_Bs8aw/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/6Uz-Zq0H5ZI/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "HYBE LABELS",
+        "channelTitle": "스트리머 사또 live-streamer satto",
         "liveBroadcastContent": "none",
-        "publishTime": "2017-11-24T09:00:02Z"
+        "publishTime": "2023-01-26T17:45:05Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "lMTD2hUbTnFUbEWJQFmhs7_dxHQ",
+      "etag": "E2MEns1hYDTS2CFmNPvT_NRaoug",
       "id": {
         "kind": "youtube#video",
-        "videoId": "UsL41SVS9Ek"
+        "videoId": "nNtAnOiBkU4"
       },
       "snippet": {
-        "publishedAt": "2023-01-05T13:00:11Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "[슈취타] EP.2 SUGA with 신동엽",
-        "description": "슈가와취하는타임 #슈취타 #SUGA #슈가 #신동엽 Connect with BTS: https://ibighit.com/bts http://twitter.com/BTS_bighit ...",
+        "publishedAt": "2023-01-25T05:40:14Z",
+        "channelId": "UCQ0MeVQ6DgNa3HCGP7HjZZg",
+        "title": "비트코인 상승 / 단기 과열 구간 . 조정이 필요하다 / 온체인 지표 정리",
+        "description": "SKY 가족 회원방 2월 모집. 모집 기간 : 1월 20일 ~ 1월 31일 [메인 정회원방] [선물 거래 정회원방] 문의 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/UsL41SVS9Ek/default.jpg",
+            "url": "https://i.ytimg.com/vi/nNtAnOiBkU4/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/UsL41SVS9Ek/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/nNtAnOiBkU4/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/UsL41SVS9Ek/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/nNtAnOiBkU4/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "BANGTANTV",
+        "channelTitle": "스카이이대표",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-01-05T13:00:11Z"
+        "publishTime": "2023-01-25T05:40:14Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "messfPimFAxKnGOX_HbB1n-M8B4",
+      "etag": "o8UfLv9TkFKke0KYW2ZpDl89aDg",
       "id": {
         "kind": "youtube#video",
-        "videoId": "G7F49u-VtKo"
+        "videoId": "stlWRRr6_mc"
       },
       "snippet": {
-        "publishedAt": "2023-01-04T12:00:00Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "[BANGTAN BOMB] = (Equal Sign) &amp; Chicken Noodle Soup &amp; Butter (Holiday Remix) Stage CAM @ NYRE 2023",
-        "description": "BANGTANBOMB #방탄밤 #jhope #제이홉 #BTS #방탄소년단 '= (Equal Sign)' & 'Chicken Noodle Soup' & 'Butter (Holiday Remix)' ...",
+        "publishedAt": "2023-01-25T17:50:52Z",
+        "channelId": "UCnXe6v0-5vmMMRU2qx0XwUw",
+        "title": "1/25녹) 비트코인 사또 운명의시간 빅숏트 satto Bitcoin korea no.1",
+        "description": "투네이션 후원주소 https://toon.at/donate/satto2 ▷세계 3대 비트코인 선물 거래소 '바이빗(Bybit)'에서 거래하기 리퍼럴 링크(수수료 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/G7F49u-VtKo/default.jpg",
+            "url": "https://i.ytimg.com/vi/stlWRRr6_mc/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/G7F49u-VtKo/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/stlWRRr6_mc/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/G7F49u-VtKo/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/stlWRRr6_mc/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "BANGTANTV",
+        "channelTitle": "스트리머 사또 live-streamer satto",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-01-04T12:00:00Z"
+        "publishTime": "2023-01-25T17:50:52Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "Qu-g6OW4MDjxBCuI5ffC1nRttZ0",
+      "etag": "ZRP1vfPOybWZwKu6t1piXd14TRQ",
       "id": {
         "kind": "youtube#video",
-        "videoId": "L-orDkbsuHk"
+        "videoId": "rKC86UlpvTI"
       },
       "snippet": {
-        "publishedAt": "2022-12-15T03:04:02Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "[BANGTAN BOMB] Jin’s Entrance Ceremony with BTS - BTS (방탄소년단)",
-        "description": "BANGTANBOMB #방탄밤 #BTS #방탄소년단 Connect with BTS: https://ibighit.com/bts http://twitter.com/BTS_bighit ...",
+        "publishedAt": "2023-01-21T18:09:35Z",
+        "channelId": "UCwZwJkJcqh4Ze0qgVfhwnJw",
+        "title": "🔴1월 21일 (토) #비트코인 현재장 최상의 수익 매매법!🔴",
+        "description": "1 . https://toon.at/donate/suconhuwon 투네이션 후원은 유튜버에게 큰 도움이 됩니다.",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/L-orDkbsuHk/default.jpg",
+            "url": "https://i.ytimg.com/vi/rKC86UlpvTI/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/L-orDkbsuHk/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/rKC86UlpvTI/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/L-orDkbsuHk/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/rKC86UlpvTI/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "BANGTANTV",
+        "channelTitle": "슈콘",
         "liveBroadcastContent": "none",
-        "publishTime": "2022-12-15T03:04:02Z"
+        "publishTime": "2023-01-21T18:09:35Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "hIWpMnEHPzoQ8oSMgXUp1Ab27UY",
+      "etag": "WJZdXOZHSceGpeUWE5YxbMX-i4g",
       "id": {
         "kind": "youtube#video",
-        "videoId": "GZjt_sA2eso"
+        "videoId": "eS56ogzZtms"
       },
       "snippet": {
-        "publishedAt": "2016-05-15T13:00:03Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;Save ME&#39; Official MV",
-        "description": "BTS (방탄소년단) 'Save ME' Official MV.",
+        "publishedAt": "2023-01-21T12:30:12Z",
+        "channelId": "UC3p-0EWA8OXko2EUDUXAy5w",
+        "title": "드디어 시작된 비트코인 상승장 목표가는 얼마? │ 브라이언의 머니플로우",
+        "description": "드디어 시작된 비트코인 상승장 목표가는 얼마? 방송일자 : 1월21일 #서울경제TV #브라이언 #머니플로우 #주식 #경제 #코인 #비트 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/GZjt_sA2eso/default.jpg",
+            "url": "https://i.ytimg.com/vi/eS56ogzZtms/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/GZjt_sA2eso/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/eS56ogzZtms/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/GZjt_sA2eso/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/eS56ogzZtms/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "HYBE LABELS",
+        "channelTitle": "서울경제TV",
         "liveBroadcastContent": "none",
-        "publishTime": "2016-05-15T13:00:03Z"
+        "publishTime": "2023-01-21T12:30:12Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "x3cH19yhqrJyhWf80FKPmoVQ8LY",
+      "etag": "-YXjKMlEvAJOyhY8Ha34PhgO9oU",
       "id": {
         "kind": "youtube#video",
-        "videoId": "Cb70gcTVvYI"
+        "videoId": "J2QxoaR_7ck"
       },
       "snippet": {
-        "publishedAt": "2022-10-16T04:00:03Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "BTS (방탄소년단) &#39;달려라 방탄 (Run BTS)&#39; @ BTS &quot;Yet To Come&quot; in BUSAN",
-        "description": "BTS #방탄소년단 #달려라방탄 #RunBTS #YetToComeInBUSAN Connect with BTS: https://ibighit.com/bts ...",
+        "publishedAt": "2023-01-24T07:45:00Z",
+        "channelId": "UCGQANZKixEM5AmUaf4kJYEQ",
+        "title": "비트코인 리플 이더리움 주봉 골든크로스 확정 이번주 정리내용",
+        "description": "비트코인 리플 이더리움 ftx 트론 러시아 우크라이나 미국 솔라나 에이다 fomc nft defi dex.",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/Cb70gcTVvYI/default.jpg",
+            "url": "https://i.ytimg.com/vi/J2QxoaR_7ck/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/Cb70gcTVvYI/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/J2QxoaR_7ck/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/Cb70gcTVvYI/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/J2QxoaR_7ck/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "BANGTANTV",
+        "channelTitle": "비트시그널 25시",
         "liveBroadcastContent": "none",
-        "publishTime": "2022-10-16T04:00:03Z"
+        "publishTime": "2023-01-24T07:45:00Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "-wjsiNlst9fbUYv2qpLjJuFUHNY",
+      "etag": "DtxdaCtTHdbr89mNai-ZY_qGdUI",
       "id": {
         "kind": "youtube#video",
-        "videoId": "DbXMjAYSa68"
+        "videoId": "l6NntyrPnnY"
       },
       "snippet": {
-        "publishedAt": "2021-05-30T10:00:01Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "[CHOREOGRAPHY] BTS (방탄소년단) &#39;Butter&#39; Special Performance Video",
-        "description": "Artist: RM, Jin, SUGA, j-hope, Jimin, V, Jung Kook Production Artist Contents Studio (HYBE 360) Director: Jang Jeong In Assistant ...",
+        "publishedAt": "2023-01-24T02:45:47Z",
+        "channelId": "UCQTeKC9vGQtdJhSQghfSUtQ",
+        "title": "[비트코인실시간 1/24] 비트코인, 쓰레스홀드 60% 급등! 리플 고래 매집! #비트코인 #엑시인피니티 #스테픈 #앱토스 #리플 #쓰레스홀드 #세럼 #누사이퍼",
+        "description": "비트코인 #비트코인실시간 #이더리움 #엑시인피니티 #스테픈 #앱토스 #리플 #쓰레스홀드 #세럼 협력 별미족탕(최고의 맛) ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/DbXMjAYSa68/default.jpg",
+            "url": "https://i.ytimg.com/vi/l6NntyrPnnY/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/DbXMjAYSa68/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/l6NntyrPnnY/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/DbXMjAYSa68/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/l6NntyrPnnY/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "BANGTANTV",
+        "channelTitle": "B앤트",
         "liveBroadcastContent": "none",
-        "publishTime": "2021-05-30T10:00:01Z"
+        "publishTime": "2023-01-24T02:45:47Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "876aK945C71luL1dXSe1c0MMfuQ",
+      "etag": "sC1voVQO_FCBbhPuCNWKEntTvo0",
       "id": {
         "kind": "youtube#video",
-        "videoId": "QH4mCEanwKI"
+        "videoId": "gGv6LetoTnE"
       },
       "snippet": {
-        "publishedAt": "2022-12-23T15:30:05Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "It’s Beginning To Look A Lot Like Christmas (cover) by V of BTS",
-        "description": "It's Beginning To Look A Lot Like Christmas (cover) by V of BTS Credits: Inst. - HYESUNG(혜성), Waizmin Keyboard - HYESUNG( ...",
+        "publishedAt": "2023-01-24T13:26:01Z",
+        "channelId": "UCRuNjeWgdNsWXtlFskRfwmg",
+        "title": "비트코인 실시간,  그레이스케일과 SEC소송일정 앞당겨! 제네시스 파산영향 1월 24일 저녁💎",
+        "description": "비트코인 #비트코인실시간 #cpi #fomc #웨이브유의 #ftx #크로노스 #솔라나 #도지코인 #리플 #메타디움 #위믹스 #도지 #위믹스유의 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/QH4mCEanwKI/default.jpg",
+            "url": "https://i.ytimg.com/vi/gGv6LetoTnE/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/QH4mCEanwKI/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/gGv6LetoTnE/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/QH4mCEanwKI/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/gGv6LetoTnE/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "BANGTANTV",
+        "channelTitle": "해피 카펠라",
         "liveBroadcastContent": "none",
-        "publishTime": "2022-12-23T15:30:05Z"
+        "publishTime": "2023-01-24T13:26:01Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "6Fu2X-hiYBTQBT4-a7cqLZrz1ng",
+      "etag": "tC7DNca8cdHe1lTfKTmbp86Q3U8",
       "id": {
         "kind": "youtube#video",
-        "videoId": "0lapF4DQPKQ"
+        "videoId": "U-EIL7dm7gk"
       },
       "snippet": {
-        "publishedAt": "2020-03-04T15:00:02Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;Black Swan&#39; Official MV",
-        "description": "BTS (방탄소년단) 'Black Swan' Official MV Credits: Director : YongSeok Choi (Lumpens) Co-Director : Guzza (Lumpens) Assistant ...",
+        "publishedAt": "2023-01-24T10:00:17Z",
+        "channelId": "UC7uFGmwzzXok18RdOh9FDfQ",
+        "title": "[이민형2] 개미가 코인시장에서 세력에 당하는 이유/ 하락장에서도 돈 번 ‘찐’천재, 이번 비트코인 상승장은 이렇게 봅니다",
+        "description": "고란 #비트코인 #루나 #알고리즘 #트레이딩 #연준 #피봇 00:00 인트로 00:22 이민형 테이바랩스 공동창업자 겸 CTO 00:51 가격이 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/0lapF4DQPKQ/default.jpg",
+            "url": "https://i.ytimg.com/vi/U-EIL7dm7gk/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/0lapF4DQPKQ/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/U-EIL7dm7gk/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/0lapF4DQPKQ/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/U-EIL7dm7gk/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "HYBE LABELS",
+        "channelTitle": "algoran알고란",
         "liveBroadcastContent": "none",
-        "publishTime": "2020-03-04T15:00:02Z"
+        "publishTime": "2023-01-24T10:00:17Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "zyHPgh-WC078hJhnrMQyNfqhPP4",
+      "etag": "EoDrG1rIjFzhdkZyYSMPpde3cGA",
       "id": {
         "kind": "youtube#video",
-        "videoId": "IwzkfMmNMpM"
+        "videoId": "RKLQy0qQ_DI"
       },
       "snippet": {
-        "publishedAt": "2022-11-22T12:09:19Z",
-        "channelId": "UCpcTrCXblq78GZrTUTLWeBw",
-        "title": "정국 Jung Kook (of BTS) featuring Fahad Al Kubaisi - Dreamers | FIFA World Cup 2022 Soundtrack",
-        "description": "Dreamers2022 #FIFAWorldCup #JungKook #정국 Listen to Dreamers: https://fifasound.lnk.to/dreamers Connect with BTS: ...",
+        "publishedAt": "2023-01-25T05:29:31Z",
+        "channelId": "UCRuNjeWgdNsWXtlFskRfwmg",
+        "title": "비트코인 실시간, 비트코인 잠시 조정? 아직 호재일정들 한발 남았다!? 1월 25일 점심💎",
+        "description": "비트코인 #비트코인실시간 #cpi #fomc #웨이브유의 #ftx #크로노스 #솔라나 #도지코인 #리플 #메타디움 #위믹스 #도지 #위믹스유의 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/IwzkfMmNMpM/default.jpg",
+            "url": "https://i.ytimg.com/vi/RKLQy0qQ_DI/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/IwzkfMmNMpM/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/RKLQy0qQ_DI/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/IwzkfMmNMpM/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/RKLQy0qQ_DI/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "FIFA",
+        "channelTitle": "해피 카펠라",
         "liveBroadcastContent": "none",
-        "publishTime": "2022-11-22T12:09:19Z"
+        "publishTime": "2023-01-25T05:29:31Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "4dbZ8I-Nbw4qe3ZcfCYtwcHLfGE",
+      "etag": "jLH3oIYZ3MlfhnU4dBA601XlgEY",
       "id": {
         "kind": "youtube#video",
-        "videoId": "GmoVXwGpDbE"
+        "videoId": "kn610XyOkpU"
       },
       "snippet": {
-        "publishedAt": "2022-12-31T14:59:55Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "[BANGTAN BOMB] 2023 New Year Greetings from BTS - BTS (방탄소년단)",
-        "description": "BANGTANBOMB #방탄밤 #BTS #방탄소년단 Connect with BTS: https://ibighit.com/bts http://twitter.com/BTS_bighit ...",
+        "publishedAt": "2023-01-21T17:29:29Z",
+        "channelId": "UCJNo7FRr0gMsXKRBvF6ahaQ",
+        "title": "[비트코인 실시간] 나 좀 데려가",
+        "description": "주멕스 40% 할인링크 https://partner.zoomex.com/aff/zx32745 바이비트 수수료 할인 가입링크 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/GmoVXwGpDbE/default.jpg",
+            "url": "https://i.ytimg.com/vi/kn610XyOkpU/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/GmoVXwGpDbE/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/kn610XyOkpU/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/GmoVXwGpDbE/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/kn610XyOkpU/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "BANGTANTV",
+        "channelTitle": "다미",
         "liveBroadcastContent": "none",
-        "publishTime": "2022-12-31T14:59:55Z"
+        "publishTime": "2023-01-21T17:29:29Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "GH--IanO_3XW7jeYn-_AjJKECqU",
+      "etag": "cjR0ndAkU7p-vI2g_JqpyywRiAI",
       "id": {
         "kind": "youtube#video",
-        "videoId": "jEdfjuG0Fx4"
+        "videoId": "qVCluXD4FEU"
       },
       "snippet": {
-        "publishedAt": "2022-11-21T15:00:02Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "정국 (Jung Kook) &#39;Dreamers&#39; @ FIFA World Cup Qatar 2022 Opening Ceremony",
-        "description": "Dreamers2022 #FIFAWorldCup #JungKook #정국 Listen to Dreamers: https://fifasound.lnk.to/dreamers Connect with BTS: ...",
+        "publishedAt": "2022-12-12T09:55:03Z",
+        "channelId": "UCbOIEn95Rvnk97KRtSFqvbQ",
+        "title": "비트코인, 사 모으세요. &#39;이때부터&#39;는 무섭게 오를 거예요 (백훈종 이사 / 4부)",
+        "description": "백훈종 이사님의 책을 소개합니다 :) 책 - https://bit.ly/3oZ4uZC 커뮤니티 - https://open.kakao.com/o/g0uftD4c (참여코드: ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/jEdfjuG0Fx4/default.jpg",
+            "url": "https://i.ytimg.com/vi/qVCluXD4FEU/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/jEdfjuG0Fx4/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/qVCluXD4FEU/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/jEdfjuG0Fx4/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/qVCluXD4FEU/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "BANGTANTV",
+        "channelTitle": "웅달 책방",
         "liveBroadcastContent": "none",
-        "publishTime": "2022-11-21T15:00:02Z"
+        "publishTime": "2022-12-12T09:55:03Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "cih_xYdttnOZU-fUsNazrqSocC8",
+      "etag": "tEpeVcRCP_YQ6ZVh8xXsapgjeLA",
       "id": {
         "kind": "youtube#video",
-        "videoId": "5xX76O7BbrY"
+        "videoId": "T7KVMempQ7U"
       },
       "snippet": {
-        "publishedAt": "2023-01-05T11:55:00Z",
-        "channelId": "UCSQGo8SaO4blSPY37xapBHQ",
-        "title": "Taehyung हफ्ते में सिर्फ एक दिन नहाते हैं 🤮 BTS ने V की सारी पोल खोली 😂 Most Funny Moment 😂 #bts #v",
-        "description": "",
+        "publishedAt": "2023-01-23T21:31:53Z",
+        "channelId": "UCX2HXx2zvM5nOHzjB0wMDpw",
+        "title": "1/24) 비트코인S&amp;P 500 저항 뚫으면비트 날아갈 것! 기대 하는 시장 미국 민주당의 충격 적인법안 소개",
+        "description": "디센트 암호화폐 지갑 *구매링크(마토 추천링크): ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/5xX76O7BbrY/default.jpg",
+            "url": "https://i.ytimg.com/vi/T7KVMempQ7U/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/5xX76O7BbrY/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/T7KVMempQ7U/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/5xX76O7BbrY/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/T7KVMempQ7U/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "EDU FACTZ",
+        "channelTitle": "크립토 토마토CRYPTO tomato",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-01-05T11:55:00Z"
+        "publishTime": "2023-01-23T21:31:53Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CPs4ochmFijfJdGuduc6ExvYtRc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bVxlzXXBgiY"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-24T22:00:28Z",
+        "channelId": "UCthu-_a9wfLCyy7Onv9fHyg",
+        "title": "비트코인 선발대 보내신 분들 수익!! 생선가시 매매 잊지마세요! 역대급 하락 나옵니다. 모두 매집 준비 단단히 하세요!",
+        "description": "해외 인기 거래소 안전링크 / 최대 수수료 할인 및 해택제공 ⚠단독!! 코부기 X Bybit 거래소 단독!! 단독!! 아래링크       •가입링크 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bVxlzXXBgiY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bVxlzXXBgiY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bVxlzXXBgiY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "코부기 - 비트코인 암호화폐 NO.1전문트레이더",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-24T22:00:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cLHQ9jmXI78awPWuhkfrTJM04vs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4ByC3W0LZ2A"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-24T01:44:48Z",
+        "channelId": "UCTOOjlJ9lOnlnyHFmlt1Xtw",
+        "title": "바이낸스 주거래 은행, 왜 이러나ㅣ코인베이스 돌연 비트코인 찬양, 낌새 챘나?",
+        "description": "비트코인 #바이낸스 #코인베이스 #시그니처은행 #스위프트 #swift #황작가뉴스레터 #https://jhwang.substack.com/ #가입하시면뉴스 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4ByC3W0LZ2A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4ByC3W0LZ2A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4ByC3W0LZ2A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "황작가의 코인경제",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-24T01:44:48Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "asAUTsZJ1RhGWUEzdBZk_og0fpc",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCt0MyoXAiA3nxpW29_t_IkA"
+      },
+      "snippet": {
+        "publishedAt": "2018-12-13T07:13:34Z",
+        "channelId": "UCt0MyoXAiA3nxpW29_t_IkA",
+        "title": "에임리치TV - 성공투자의 길잡이",
+        "description": "독보적 업계 1위 투자 정보 플랫폼 에임리치입니다. 암호화폐, 거시경제, 주식 등 투자 관련 데이터를 추출해 분석하여 유의미한 콘텐츠 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/Z6h6tf_IG5qeT0mFzqAwkLVmrq2aOsp5DLdocKdq6FUfiRj1X7KjoJvpaSFoxcj8MM9XEeHj6Q=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/Z6h6tf_IG5qeT0mFzqAwkLVmrq2aOsp5DLdocKdq6FUfiRj1X7KjoJvpaSFoxcj8MM9XEeHj6Q=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/Z6h6tf_IG5qeT0mFzqAwkLVmrq2aOsp5DLdocKdq6FUfiRj1X7KjoJvpaSFoxcj8MM9XEeHj6Q=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "에임리치TV - 성공투자의 길잡이",
+        "liveBroadcastContent": "upcoming",
+        "publishTime": "2018-12-13T07:13:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vD0jVu2Jr3RhQc7KOzkNge5F3dk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EN4EbHOuOAY"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-24T15:11:34Z",
+        "channelId": "UC9A0qCSqRhOe4ux48Hn_CKw",
+        "title": "전체 달러  65%를 독점 관리     #시타델 #EDX #EDXM #블랙록",
+        "description": "00:00 방송시작 20:52 전고점 돌파여부 비트 2억 넘는다 23:58 [축하] 2021년, 2022년 유튜브 암호화폐 후원 수익 1위 29:53 제네시스 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EN4EbHOuOAY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EN4EbHOuOAY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EN4EbHOuOAY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도리도리 비트코인 교육방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-24T15:11:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5hNAgk8QHGckziNFQSMOqJW0o1Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5YMehYYbXm0"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-18T07:29:25Z",
+        "channelId": "UCf64J3dPdVRT6OJf57m-uyw",
+        "title": "비트코인 바닥 찍었다 - 윌리 우",
+        "description": "윌리 우 의 비트코인 가격모델을 소개합니다. * 주의: 저는 소통방을 운영하지 않습니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5YMehYYbXm0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5YMehYYbXm0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5YMehYYbXm0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "비트슈아",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-18T07:29:25Z"
       }
     }
   ]
