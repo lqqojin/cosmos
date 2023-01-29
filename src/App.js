@@ -1,17 +1,24 @@
-import { useState } from 'react';
-import './App.css';
-import TodoList from './components/TodoList/TodoList';
-import Header from './components/Header/Header';
-import { DarkModeProvider } from './context/DarkModeContext';
+import { Outlet } from 'react-router-dom';
+import { VideoDetailProvider } from './context/VideoDetailContext';
+import { YoutubeApiProvider } from './context/YoutubeApiContext';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import SearchHeader from './components/Navbar/SearchHeader';
 
-const filters = ['all', 'active', 'completed'];
+const queryClient = new QueryClient();
 function App() {
-  const [filter, setFilter] = useState(filters[0]);
   return (
-    <DarkModeProvider>
-      <Header filters={filters} filter={filter} onFilterChange={setFilter}/>
-      <TodoList filter={filter} />
-    </DarkModeProvider>
+    <>
+      <SearchHeader />
+      <YoutubeApiProvider>
+        <VideoDetailProvider>
+          <QueryClientProvider client={queryClient}>
+            <Outlet />
+            <ReactQueryDevtools initialIsOpen={true} />
+          </QueryClientProvider>
+        </VideoDetailProvider>
+      </YoutubeApiProvider>
+    </>
   );
 }
 export default App;
