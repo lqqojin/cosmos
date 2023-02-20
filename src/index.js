@@ -2,13 +2,33 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+
+import App from './App';
+import Home from './pages/Home';
 import Login from './pages/Login';
 import NotFound from './pages/NotFound';
+// shoppy
+import AllProducts from './pages/AllProducts';
+import NewProducts from './pages/NewProducts';
+import ProductDetail from './pages/ProductDetail';
+import MyCart from './pages/MyCart';
+// todos
 import Todos from './pages/Todos';
+// youtube
 import Videos from './pages/Videos';
 import VideosDetail from './pages/VideosDetail';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+
+/**
+ *
+ * <App>
+ * / 👉 <Home>
+ * /products 👉 <AllProducts>
+ * /products/new 👉 <NewProduct>
+ * /products/:id 👉 <ProductDetail>
+ * /carts 👉 <MyCart>
+ */
 
 const router = createBrowserRouter([
   {
@@ -16,7 +36,12 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <NotFound />,
     children: [
-      { index: true, element: <Videos /> },
+      { index: true, element: <Home /> },
+      { path: '/products', element: <AllProducts /> },
+      { path: '/products/new', element: <NewProducts /> },
+      { path: '/products/:id', element: <ProductDetail /> },
+      { path: '/carts', element: <MyCart /> },
+      // { index: true, element: <Videos /> },
       { path: '/login', element: <Login /> },
       { path: '/todos', element: <Todos /> },
       { path: '/videos', element: <Videos /> },
