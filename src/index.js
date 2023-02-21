@@ -5,7 +5,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 import App from './App';
 import Home from './pages/Home';
-import Login from './pages/Login';
+// import Login from './pages/Login';
 import NotFound from './pages/NotFound';
 // shoppy
 import AllProducts from './pages/AllProducts';
@@ -42,7 +42,7 @@ const router = createBrowserRouter([
       { path: '/products/:id', element: <ProductDetail /> },
       { path: '/carts', element: <MyCart /> },
       // { index: true, element: <Videos /> },
-      { path: '/login', element: <Login /> },
+      // { path: '/loginss', element: <Login /> },
       { path: '/todos', element: <Todos /> },
       { path: '/videos', element: <Videos /> },
       { path: '/videos/:keyword', element: <Videos /> },
