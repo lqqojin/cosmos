@@ -1,15 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { BsPencilFill } from 'react-icons/bs';
 import { FaShopify } from 'react-icons/fa';
+import { useAuthContext } from '../context/AuthContext';
+import Button from '../../components/ui/Button';
 import User from '../../components/User/User';
-import { login, logout, onUserStateChange } from '../../api/firebase';
 
 export default function ShoppyNavbar() {
-  const [user, setUser] = useState();
-  useEffect(() => {
-    onUserStateChange(setUser);
-  }, []);
+  const { user, login, logout } = useAuthContext();
   return (
     <header className="flex justify-between border-b border-gray-300 p-2">
       <Link to="/" className="flex items-center text-4xl text-shoppyBrand">
@@ -18,13 +16,15 @@ export default function ShoppyNavbar() {
       </Link>
       <nav className="flex items-center gap-4 font-semibold">
         <Link to="/products">Products</Link>
-        <Link to="/carts">Carts</Link>
-        <Link to="/products/new" className="text-2xl">
-          <BsPencilFill />
-        </Link>
+        {user && <Link to="/carts">Carts</Link>}
+        {user && user.isAdmin && (
+          <Link to="/products/new" className="text-2xl">
+            <BsPencilFill />
+          </Link>
+        )}
         {user && <User user={user} />}
-        {!user && <button onClick={login}>Login</button>}
-        {user && <button onClick={logout}>Logout</button>}
+        {!user && <Button text="Login" onClick={login} />}
+        {user && <Button text="Logout" onClick={logout} />}
       </nav>
     </header>
   );

@@ -1799,7 +1799,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@firebase/app@npm:0.9.3":
+"@firebase/app@npm:0.9.3, @firebase/app@npm:^0.9.3":
   version: 0.9.3
   resolution: "@firebase/app@npm:0.9.3"
   dependencies:
@@ -5265,6 +5265,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "cosmos@workspace:."
   dependencies:
+    "@firebase/app": ^0.9.3
     "@tailwindcss/line-clamp": ^0.4.2
     "@tanstack/react-query": ^4.22.0
     "@tanstack/react-query-devtools": ^4.20.9

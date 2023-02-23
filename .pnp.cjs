@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@firebase/app", "npm:0.9.3"],\
             ["@tailwindcss/line-clamp", "virtual:518489ac9d936bbde76b15f1ebd82ba55d933fc1960686b72fd22d740a88598d236cf1fa28f5e62024f0b78e560d5e850543731cafe740f90cf9d5f628aec654#npm:0.4.2"],\
             ["@tanstack/react-query", "virtual:518489ac9d936bbde76b15f1ebd82ba55d933fc1960686b72fd22d740a88598d236cf1fa28f5e62024f0b78e560d5e850543731cafe740f90cf9d5f628aec654#npm:4.22.0"],\
             ["@tanstack/react-query-devtools", "virtual:518489ac9d936bbde76b15f1ebd82ba55d933fc1960686b72fd22d740a88598d236cf1fa28f5e62024f0b78e560d5e850543731cafe740f90cf9d5f628aec654#npm:4.22.0"],\
@@ -8064,6 +8065,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["cosmos", "workspace:."],\
+            ["@firebase/app", "npm:0.9.3"],\
             ["@tailwindcss/line-clamp", "virtual:518489ac9d936bbde76b15f1ebd82ba55d933fc1960686b72fd22d740a88598d236cf1fa28f5e62024f0b78e560d5e850543731cafe740f90cf9d5f628aec654#npm:0.4.2"],\
             ["@tanstack/react-query", "virtual:518489ac9d936bbde76b15f1ebd82ba55d933fc1960686b72fd22d740a88598d236cf1fa28f5e62024f0b78e560d5e850543731cafe740f90cf9d5f628aec654#npm:4.22.0"],\
             ["@tanstack/react-query-devtools", "virtual:518489ac9d936bbde76b15f1ebd82ba55d933fc1960686b72fd22d740a88598d236cf1fa28f5e62024f0b78e560d5e850543731cafe740f90cf9d5f628aec654#npm:4.22.0"],\

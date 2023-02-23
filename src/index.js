@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { ProtectedRoute } from './pages/ProtectedRoute';
 
 import App from './App';
 import Home from './pages/Home';
@@ -38,9 +39,23 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: '/products', element: <AllProducts /> },
-      { path: '/products/new', element: <NewProducts /> },
+      {
+        path: '/products/new',
+        element: (
+          <ProtectedRoute requireAdmin>
+            <NewProducts />
+          </ProtectedRoute>
+        ),
+      },
       { path: '/products/:id', element: <ProductDetail /> },
-      { path: '/carts', element: <MyCart /> },
+      {
+        path: '/carts',
+        element: (
+          <ProtectedRoute>
+            <MyCart />
+          </ProtectedRoute>
+        ),
+      },
       // { index: true, element: <Videos /> },
       // { path: '/loginss', element: <Login /> },
       { path: '/todos', element: <Todos /> },
