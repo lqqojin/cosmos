@@ -1,19 +1,31 @@
 import React, { useState } from 'react';
+import { addNewProduct } from '../api/firebase';
 import Button from '../components/ui/Button';
-import { uploadImage } from 'src/api/uploader';
-import { writeUserData } from '../api/firebase';
+import { uploadImage } from '../api/uploader';
+// import { writeUserData } from '../api/firebase';
 
 export default function NewProducts() {
   const [product, setProduct] = useState({});
   const [file, setFile] = useState();
+  const [isUploading, setIsUploading] = useState(false);
+  const [success, setSuccess] = useState();
 
   const handleSubmit = e => {
     e.preventDefault();
-    console.log(product);
-    uploadImage(file);
+    setIsUploading(true);
+    uploadImage(file) //
+      .then(url => {
+        console.log(url);
+        addNewProduct(product, url).then(() => {
+          setSuccess('성공적으로 제품이 추가되었습니다.');
+          setTimeout(() => {
+            setSuccess(null);
+          }, 4000);
+        });
+      })
+      .finally(() => setIsUploading(false));
     // 제품의 사진을 Cloudinary 에 업로드 하고 URL을 획득
     // Firebase에 새로운 제품을 추가함
-    writeUserData(product);
   };
 
   const handleChange = e => {
@@ -26,10 +38,17 @@ export default function NewProducts() {
   };
 
   return (
-    <section className="w-full h-full my-1 flex justify-center items-center flex-col">
-      <div>새로운 제품 등록</div>
-      {file && <img src={URL.createObjectURL(file)} alt="local file" />}
-      <form onSubmit={handleSubmit} className="flex flex-col">
+    <section className="w-full text-center">
+      <h2 className="text-2xl font-bold my-4">새로운 제품 등록</h2>
+      {success && <p className="my-2">✅ {success}</p>}
+      {file && (
+        <img
+          className="w-96 mx-auto mb-2"
+          src={URL.createObjectURL(file)}
+          alt="local file"
+        />
+      )}
+      <form className="flex flex-col px-12" onSubmit={handleSubmit}>
         <input
           type="file"
           name="file"
@@ -73,7 +92,11 @@ export default function NewProducts() {
           value={product.option ?? ''}
           onChange={handleChange}
         />
-        <Button className="bg-shoppyBrand" text={'제품 등록하기'} />
+        <Button
+          className="bg-shoppyBrand"
+          text={isUploading ? '업로드 중...' : '제품 등록하기'}
+          disabled={isUploading}
+        />
       </form>
     </section>
   );

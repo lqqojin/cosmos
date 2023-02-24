@@ -1,4 +1,5 @@
 import { initializeApp } from 'firebase/app';
+import { v4 as uuid } from 'uuid';
 import {
   GoogleAuthProvider,
   getAuth,
@@ -19,9 +20,18 @@ const app = initializeApp(firebaseConfig);
 const provider = new GoogleAuthProvider();
 const auth = getAuth();
 const database = getDatabase(app);
-// console.log(database);
 
-export const getFirebaseDatabase = () => {};
+const adminUser = user => {
+  return get(ref(database, 'admins')) //
+    .then(snapshot => {
+      if (snapshot.exists()) {
+        const admins = snapshot.val();
+        const isAdmin = admins.includes(user.uid);
+        return { ...user, isAdmin };
+      }
+      return user;
+    });
+};
 
 export const login = () => {
   signInWithPopup(auth, provider).catch(console.error);
@@ -39,18 +49,13 @@ export const onUserStateChange = callback => {
   });
 };
 
-const adminUser = user => {
-  return get(ref(database, 'admins')) //
-    .then(snapshot => {
-      if (snapshot.exists()) {
-        const admins = snapshot.val();
-        const isAdmin = admins.includes(user.uid);
-        return { ...user, isAdmin };
-      }
-      return user;
-    });
-};
-
-export const writeUserData = form => {
-  return set(ref(database, 'products'), form); //
+export const addNewProduct = async (product, image) => {
+  const id = uuid();
+  return set(ref(database, `products/${id}`), {
+    ...product,
+    id,
+    price: parseInt(product.price),
+    image,
+    option: product.option.split(','),
+  });
 };
