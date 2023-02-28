@@ -10,18 +10,20 @@ import ShoppyNavbar from './components/Navbar/ShoppyNavbar';
 const queryClient = new QueryClient();
 function App() {
   return (
-    <AuthContextProvider>
-      <ShoppyNavbar />
-      {/*<SearchHeader />*/}
-      {/*<YoutubeApiProvider>*/}
-      {/*  <VideoDetailProvider>*/}
-      <QueryClientProvider client={queryClient}>
+    <QueryClientProvider client={queryClient}>
+      <AuthContextProvider>
+        <ShoppyNavbar />
+        {/*<SearchHeader />*/}
+        {/*<YoutubeApiProvider>*/}
+        {/*  <VideoDetailProvider>*/}
+
         <Outlet />
         <ReactQueryDevtools initialIsOpen={true} />
-      </QueryClientProvider>
-      {/*  </VideoDetailProvider>*/}
-      {/*</YoutubeApiProvider>*/}
-    </AuthContextProvider>
+
+        {/*  </VideoDetailProvider>*/}
+        {/*</YoutubeApiProvider>*/}
+      </AuthContextProvider>
+    </QueryClientProvider>
   );
 }
 export default App;

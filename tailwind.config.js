@@ -7,6 +7,9 @@ module.exports = {
         brand: '#FF0000',
         shoppyBrand: '#F96162',
       },
+      backgroundImage: {
+        banner: `url('../public/images/banner.png')`,
+      },
     },
   },
   plugins: [require('@tailwindcss/line-clamp')],

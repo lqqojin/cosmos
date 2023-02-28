@@ -59,3 +59,12 @@ export const addNewProduct = async (product, image) => {
     option: product.option.split(','),
   });
 };
+
+export const getProducts = async () => {
+  return await get(ref(database, `products`)).then(snapshot => {
+    if (snapshot.exists()) {
+      return Object.values(snapshot.val());
+    }
+    return [];
+  });
+};
