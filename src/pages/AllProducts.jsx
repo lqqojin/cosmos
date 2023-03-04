@@ -1,6 +1,6 @@
 import React from 'react';
-import ProductCard from '../components/Shoppy/ProductCard';
+import Products from '../components/Shoppy/Products';
 
 export default function AllProducts() {
-  return <ProductCard />;
+  return <Products />;
 }
