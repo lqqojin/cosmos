@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { BsPencilFill } from 'react-icons/bs';
 import { FaShopify } from 'react-icons/fa';
-import { useAuthContext } from '../context/AuthContext';
+import CartStatus from '../../components/Shoppy/CartStatus';
+import { useAuthContext } from '../../context/AuthContext';
 import Button from '../../components/ui/Button';
 import User from '../../components/User/User';
 
@@ -16,7 +17,11 @@ export default function ShoppyNavbar() {
       </Link>
       <nav className="flex items-center gap-4 font-semibold">
         <Link to="/products">Products</Link>
-        {user && <Link to="/carts">Carts</Link>}
+        {user && (
+          <Link to="/carts">
+            <CartStatus />
+          </Link>
+        )}
         {user && user.isAdmin && (
           <Link to="/products/new" className="text-2xl">
             <BsPencilFill />

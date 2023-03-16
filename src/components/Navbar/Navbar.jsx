@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import SearchHeader from 'src/components/Navbar/SearchHeader';
+import SearchHeader from '../Navbar/SearchHeader';
 import styles from './Navbar.module.css';
 import { BsYoutube } from 'react-icons/bs';
 
